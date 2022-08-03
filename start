@@ -1,0 +1,7 @@
+j = input()
+n = "1234567890"
+cnt = 0
+for i in range(len(j)):
+    if j[i] in n:
+        cnt += 1
+print(cnt)
